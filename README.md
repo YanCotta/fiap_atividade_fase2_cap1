@@ -27,6 +27,8 @@ O sistema suporta o registro de campos, plantios, culturas, leituras de sensores
 
 ## 📁 Estrutura de pastas
 
+De acordo com o requerimento dos entregáveis: "O grupo deve entregar um link do repositório GitHub que contenha arquivos .dmd da modelagem e documentação readme.md e uma imagem .png/.jpg do seu modelo."
+
 Dentre os arquivos presentes na raiz do projeto, definem-se:
 
 - **.github**: Arquivos de configuração específicos do GitHub para gerenciar o repositório.
