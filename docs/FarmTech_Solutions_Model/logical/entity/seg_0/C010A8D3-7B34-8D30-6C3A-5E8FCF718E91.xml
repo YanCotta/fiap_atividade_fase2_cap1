@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C010A8D3-7B34-8D30-6C3A-5E8FCF718E91" name="Ajuste_Nutrientes">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:42:55 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Ajuste_Nutrientes" id="35D7E94B-7A15-6DFE-8721-DD6B39ED390F">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:43:08 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Plantio" id="352BA32D-4FAA-DA6D-1E83-948CFD3CEA06">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:43:25 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_Hora" id="B7CE46DE-F378-45E2-F741-4B7C3911A83B">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:43:41 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Nutriente" id="D35D4FFD-23C9-8FDF-6A5F-97C502D2B40B">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:43:52 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantidade_Nutriente" id="69FA2A62-D3B9-2CB7-B612-63C1C2250721">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:44:06 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Plantio1" id="BC903F2A-6D08-D478-5038-E2D5C39ABAA0">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:46:42 UTC</createdTime>
+<generatorID>C856A890-838F-B313-01E6-C24D8A77664A</generatorID>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<referedAttribute>0B05C55D-3B68-028A-FA5D-33354ABFFB3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5BEBDDF-E178-A2BD-1D44-AC2A5E829EE7" name="Ajuste_Nutrientes PK">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:43:22 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35D7E94B-7A15-6DFE-8721-DD6B39ED390F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

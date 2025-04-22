@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1CAC849D-A200-6730-9842-35C98752200E" name="Leitura_Sensor">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:34:52 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Leitura" id="4E6EC553-D5B4-BA74-C1B1-5A118AEEAD63">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:35:32 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Sensor" id="072B513A-E584-A8B1-84A6-147D2DFFDEC6">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:35:48 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_Hora" id="BBE62D7E-B022-5918-276A-E74AFCF6F7D3">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:36:10 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Valor" id="7AD50FF2-15B3-131D-AE76-A11157C6D12D">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:36:31 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valor" id="AB8DE5D6-8411-CFC5-4D12-7D29C5584B1D">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:36:54 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Sensor1" id="85550231-A89E-1A6C-3EA7-8B1DBB6ACADA">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:46:03 UTC</createdTime>
+<generatorID>9A280A53-2EE0-64AB-56EB-3A7027C05C07</generatorID>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<referedAttribute>B74F0F4E-2088-12A0-8757-60842FBA0AF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62ECBE99-9F08-B9A9-35D0-64A9923F7B3B" name="Leitura_Sensor PK">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:35:45 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E6EC553-D5B4-BA74-C1B1-5A118AEEAD63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

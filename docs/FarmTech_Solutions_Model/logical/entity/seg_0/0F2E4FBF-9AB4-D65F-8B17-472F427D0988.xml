@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F2E4FBF-9AB4-D65F-8B17-472F427D0988" name="Sensor">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:27:20 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Sensor" id="B74F0F4E-2088-12A0-8757-60842FBA0AF1">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:27:54 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Campo" id="E6909EDE-E3D2-41CB-482E-623FF60144D6">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:32:26 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Sensor" id="E681B83D-1724-06A2-1EFB-52AD8063D969">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:33:21 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Localizacao" id="150AE2D8-0C73-6052-4028-3253F34A1259">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:33:50 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Campo1" id="374D3A2B-E2D1-74FE-F1A6-A46B1A18D1ED">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:45:22 UTC</createdTime>
+<generatorID>E6261D0E-0737-D17C-4F88-2A93C5CD2320</generatorID>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<referedAttribute>F2BD446D-1174-4E40-E1E5-B861D2124E4D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD96E93C-DD78-AF71-574A-B35ED2D7E133" name="Sensor PK">
+<createdBy>User</createdBy>
+<createdTime>2025-04-21 22:28:39 UTC</createdTime>
+<ownerDesignName>FarmTech_Solutions_Model</ownerDesignName>
+<engineerTo>
+<item key="32A711F5-037E-9010-BA44-CAB14671EB53" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B74F0F4E-2088-12A0-8757-60842FBA0AF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

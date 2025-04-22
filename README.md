@@ -29,12 +29,12 @@ O sistema suporta o registro de campos, plantios, culturas, leituras de sensores
 
 De acordo com o requerimento dos entregáveis: "O grupo deve entregar um link do repositório GitHub que contenha arquivos .dmd da modelagem e documentação readme.md e uma imagem .png/.jpg do seu modelo."
 
-Dentre os arquivos presentes na raiz do projeto, definem-se:
+Dentre as pastas presentes na raiz do projeto, dentro de "docs" definem-se:
 
-- **.github**: Arquivos de configuração específicos do GitHub para gerenciar o repositório.
-- **der_farmtech_solutions**: Imagem do diagrama DER.
+- **der_farmtech_solutions.png**: PNG da imagem do DER.
+- **DER_FarTech.pdf**: PDF da imagem do DER
 - **farmtech_solutions_model.dmd**: Arquivo .dmd da modelagem (DER).
-- **README.md**: Documentação do projeto, incluindo o modelo de dados (MER).
+- **FarmTech_Solutions_Model**: Arquivo com modelo completo do Oracle SQL Developer Data Modeler
 
 ## 🔧 Como executar o código
 
@@ -46,19 +46,6 @@ Dentre os arquivos presentes na raiz do projeto, definem-se:
 2. Abra o arquivo `FarmTech_Model.dmd` no Oracle SQL Developer Data Modeler.
 3. Visualize o diagrama lógico no painel **"Logical Model"**.
 4. Para gerar o esquema físico, clique em **"Tools" > "Engineer to Relational Model"**.
-
-## 🗃 Histórico de lançamentos
-
-- **0.2.0 - 25/10/2024**
-  - Adição de atributos faltantes às entidades e exportação do DER atualizado.
-- **0.1.0 - 15/10/2024**
-  - Criação do modelo inicial com entidades e relacionamentos.
-
-## 📋 Licença
-
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
-
----
 
 ## Modelo Entidade-Relacionamento (MER)
 
@@ -115,3 +102,16 @@ Dentre os arquivos presentes na raiz do projeto, definem-se:
 
 ### Lógica de Negócio
 Os sensores monitoram condições do solo em tempo real, gerando leituras que alimentam o sistema. Com base nessas leituras, ajustes de irrigação e nutrientes são registrados por plantio, otimizando o uso de recursos e a produtividade agrícola.
+
+## 🗃 Histórico de lançamentos
+
+- **0.2.0 - 25/10/2024**
+  - Adição de atributos faltantes às entidades e exportação do DER atualizado.
+- **0.1.0 - 15/10/2024**
+  - Criação do modelo inicial com entidades e relacionamentos.
+
+## 📋 Licença
+
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
+
+---
