@@ -1,7 +1,7 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
-<a href="https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" border="0" width=40% height=40%></a>
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
 </p>
 
 <br>
@@ -11,17 +11,13 @@
 ## FarmTech Group
 
 ## 👨‍🎓 Integrantes:
-- <a href="https://www.linkedin.com/in/seu-perfil">Seu Nome Completo</a>
-- <a href="https://www.linkedin.com/in/integrante2">Nome do Integrante 2</a>
-- <a href="https://www.linkedin.com/in/integrante3">Nome do Integrante 3</a>
-- <a href="https://www.linkedin.com/in/integrante4">Nome do Integrante 4</a>
-- <a href="https://www.linkedin.com/in/integrante5">Nome do Integrante 5</a>
+- <a href="https://www.linkedin.com/in/yan-cotta/">Yan Cotta</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a)
-- <a href="https://www.linkedin.com/in/tutor">Nome do Tutor</a>
+- Lucas Gomes Moreira 
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/in/coordenador">Nome do Coordenador</a>
+- André Godoi Chiovato
 
 ## 📜 Descrição
 
@@ -31,16 +27,12 @@ O sistema suporta o registro de campos, plantios, culturas, leituras de sensores
 
 ## 📁 Estrutura de pastas
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+Dentre os arquivos presentes na raiz do projeto, definem-se:
 
 - **.github**: Arquivos de configuração específicos do GitHub para gerenciar o repositório.
-- **assets**: Imagens e elementos visuais, como o diagrama DER.
-- **config**: Arquivos de configuração do projeto.
-- **document**: Documentação do projeto, incluindo o modelo de dados.
-  - **other**: Documentos complementares.
-- **scripts**: Scripts auxiliares (ex.: geração de relatórios).
-- **src**: Código-fonte desenvolvido ao longo do projeto.
-- **README.md**: Guia geral do projeto.
+- **der_farmtech_solutions**: Imagem do diagrama DER.
+- **farmtech_solutions_model.dmd**: Arquivo .dmd da modelagem (DER).
+- **README.md**: Documentação do projeto, incluindo o modelo de dados (MER).
 
 ## 🔧 Como executar o código
 
