@@ -27,14 +27,23 @@ O sistema suporta o registro de campos, plantios, culturas, leituras de sensores
 
 ## 📁 Estrutura de pastas
 
-De acordo com o requerimento dos entregáveis: "O grupo deve entregar um link do repositório GitHub que contenha arquivos .dmd da modelagem e documentação readme.md e uma imagem .png/.jpg do seu modelo."
+O projeto está organizado com a seguinte estrutura de diretórios:
 
-Dentre as pastas presentes na raiz do projeto, dentro de "docs" definem-se:
-
-- **der_farmtech_solutions.png**: PNG da imagem do DER.
-- **DER_FarTech.pdf**: PDF da imagem do DER
-- **farmtech_solutions_model.dmd**: Arquivo .dmd da modelagem (DER).
-- **FarmTech_Solutions_Model**: Arquivo com modelo completo do Oracle SQL Developer Data Modeler
+- **assets/**: Contém recursos visuais do projeto
+  - `logo-fiap.png`: Logo da FIAP utilizada na documentação
+- **config/**: Diretório para arquivos de configuração
+- **docs/**: Documentação do projeto
+  - `der_farmtech_solutions.png`: Imagem do Diagrama Entidade-Relacionamento
+  - `DER_FarmTech.pdf`: Versão em PDF do DER
+- **scripts/**: Diretório para scripts auxiliares
+- **src/**: Código-fonte do projeto
+  - `farmtech_solutions_model.dmd`: Arquivo principal do modelo de dados
+  - **FarmTech_Solutions_Model/**: Diretório contendo todos os arquivos do modelo
+    - `businessinfo/`: Informações de negócio do modelo
+    - `datatypes/`: Definições de tipos de dados
+    - `logical/`: Modelo lógico do banco de dados
+    - `mapping/`: Mapeamentos do modelo
+    - `rel/`: Modelo relacional
 
 ## 🔧 Como executar o código
 
